@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: serif;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.logo{
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+}
+nav{
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFBE0B;
+    display: inline;
+    border-radius: 30px;
+}
+ul{
+    background-color:#FFBE0B ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+ul li{
+    background-color: #FFBE0B;
+    color: black;
+    padding: 20px;
+    width: auto;
+    font-weight: bold;
+}
+ul li:hover{
+    background-color: rgb(11, 152, 233);;
+    color: #FFBE0B;
+    border-radius: 100%;
+    transition: 0.7s ease-in;
+}
+ul li:active{
+    background-color: #fc9701;
+    color: #FF006E;
+    transition: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    background-color: #FFBE0B;
+}
+/* hero section */
+.hero{
+    width:auto;
+    height: 300px;
+    padding: 50px;
+    margin: 10px; 
+}
+h1{
+    text-decoration: 5px underline #FF006E ;
+    color: white;
+    display: inline;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.tag{
+    text-decoration: 5px underline #FFBE0B ;
+    color: white;
+    background-color: black;
+    border: none;
+    display: inline;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.hero-buttons{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary{
+    background-color: rgb(0, 204, 255);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: #FF006E;
+    box-shadow: 0 0 15px #FF006E,
+                0 0 30px rgba(0, 204, 255, 0.5);
+    text-shadow: 0 0 5px white, 0 0 10px white;
+}
+.btn-secondary{
+    background-color: rgb(0, 204, 255);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.btn-secondary:hover{
+    background-color: #FF006E;
+    box-shadow: 0 0 15px #FF006E,
+                0 0 30px rgba(0, 204, 255, 0.5);
+    text-shadow: 0 0 5px white, 0 0 10px white;
+    
+}
+.blank{
+    width: auto;
+    height: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    background-image: url(background.png);
+}
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+}
+.cards{
+    margin: 20px;
+    padding: 20px;
+    background-color: #FF006E;
+    border-radius: 30px;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: #FFBE0B;
+    border: 3px solid black;
+}
+p:hover{
+    color: #FFBE0B;
+    background-color: black;
+    transition: 0.6s ease;
+}
+.image{
+    border-radius: 30px;
+    background-color: #FFBE0B;
+    border: 3px solid black;
+}
+h2{
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #FFBE0B;
+    border: 3px solid black;
+}
+/* footer */
+#copyright{
+    color: #FF006E;
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    border: transparent;
+}
+#tech-credit{
+    font-size: 0.8rem;
+    color: #aaa;
+    text-align: center;
+    margin-top: 2rem;
+    font-style: italic;
+    background-color: black;
+}
